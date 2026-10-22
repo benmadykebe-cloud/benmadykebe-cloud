@@ -6,14 +6,18 @@
 
 <br>
 
-![Cisco](https://img.shields.io/badge/Cisco_Networking_Academy-CCNA_R%26S-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![MBA](https://img.shields.io/badge/MBA-Administration_des_affaires-1A5276?style=for-the-badge)
-![Bilingue](https://img.shields.io/badge/Bilingue-FR_%7C_EN-2E86C1?style=for-the-badge)
-![Montréal](https://img.shields.io/badge/Montréal-QC-0B2A40?style=for-the-badge)
+<img src="https://img.shields.io/badge/Cisco_Networking_Academy-CCNA_R%26S-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Networking Academy CCNA R&S">
+<img src="https://img.shields.io/badge/MBA-Administration_des_affaires-1A5276?style=for-the-badge" alt="MBA">
+<img src="https://img.shields.io/badge/Bilingue-FR_%7C_EN-2E86C1?style=for-the-badge" alt="Bilingue FR EN">
+<img src="https://img.shields.io/badge/Montr%C3%A9al-QC-0B2A40?style=for-the-badge" alt="Montréal, QC">
 
-**[À propos](#apropos) · [Compétences](#competences) · [Certifications](#certifications) · [Projets](#projets) · [Parcours](#parcours) · [Contact](#contact)**
+<p align="center">
+<b><a href="#apropos">À propos</a> · <a href="#competences">Compétences</a> · <a href="#certifications">Certifications</a> · <a href="#projets">Projets</a> · <a href="#parcours">Parcours</a> · <a href="#contact">Contact</a></b>
+</p>
 
-**[🌐 Voir mon portfolio en ligne](https://benmadykebe-cloud.github.io/Ibrahima-Ben-Mady-Kebe/)**
+<p align="center">
+<b><a href="https://benmadykebe-cloud.github.io/Ibrahima-Ben-Mady-Kebe/">🌐 Voir mon portfolio en ligne</a></b>
+</p>
 
 <img src="assets/marquee.svg" alt="Mots-clés : Cisco CLI, TCP/IP, VLAN, OSPF, DHCP, NAT, ACL, Excel avancé, Office 365, bilingue FR/EN" width="100%">
 
