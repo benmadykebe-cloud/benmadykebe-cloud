@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33796605/README.md)
 <div align="center">
 
 <img src="assets/banner.svg" alt="Ibrahima Ben Mady Kebe, informatique appliquée et gestion des opérations" width="100%">
