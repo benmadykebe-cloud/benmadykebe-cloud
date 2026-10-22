@@ -215,9 +215,6 @@
 </tr>
 </table>
 
-<h3>Projet personnel : Centre de services TI</h3>
-<p>Application Java en ligne de commande qui gère des tickets de support, un parc d'équipements et des interventions, avec six rapports SQL pour piloter l'activité (jointures, regroupements, fonction de fenêtre). <br><sub>Java 17, SQLite, JDBC, Maven, JUnit 5</sub></p>
-<p><a href="https://github.com/benmadykebe-cloud/centre-services-ti"><b>Voir le code</b></a></p>
 
 <h3>Certifications Cisco Networking Academy</h3>
 
