@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 10" width="1200" height="10" role="img" aria-label="Séparateur">
+
+<defs>
+  <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="2400" y2="0">
+    <stop offset="0" stop-color="#1A5276"/><stop offset=".25" stop-color="#5DADE2"/>
+    <stop offset=".5" stop-color="#1A5276"/><stop offset=".75" stop-color="#5DADE2"/>
+    <stop offset="1" stop-color="#1A5276"/>
+  </linearGradient>
+  <clipPath id="c"><rect y="2" width="1200" height="6" rx="3"/></clipPath>
+  <style>
+    .flow { animation: flow 6s linear infinite; }
+    @keyframes flow { to { transform: translateX(-1200px); } }
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+</defs>
+<g clip-path="url(#c)"><rect class="flow" width="2400" height="10" fill="url(#d)"/></g>
+</svg>

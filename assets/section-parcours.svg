@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" role="img" aria-label="Parcours">
+
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0B2A40"/><stop offset="1" stop-color="#1A5276"/>
+  </linearGradient>
+  <linearGradient id="sw" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="c"><rect width="1200" height="64" rx="12"/></clipPath>
+  <style>
+    .t { font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 700; fill: #fff; animation: in .7s ease-out backwards; }
+    .bar { fill: #5DADE2; transform-box: fill-box; transform-origin: center; animation: grow .7s ease-out backwards; }
+    .dot { fill: #85C1E9; animation: blink 2s ease-in-out infinite; }
+    .sweep { animation: sweep 5s ease-in-out infinite; }
+    @keyframes in { from { opacity: 0; transform: translateX(-18px); } }
+    @keyframes grow { from { transform: scaleY(0); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+    @keyframes sweep { 0% { transform: translateX(0); } 60%, 100% { transform: translateX(1500px); } }
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+</defs>
+<g clip-path="url(#c)">
+  <rect width="1200" height="64" fill="url(#g)"/>
+  <rect class="sweep" x="-260" width="260" height="64" fill="url(#sw)"/>
+</g>
+<rect class="bar" x="22" y="14" width="6" height="36" rx="3"/>
+<circle class="dot" cx="1170" cy="32" r="5"/>
+<text class="t" x="46" y="43">Parcours</text>
+</svg>
