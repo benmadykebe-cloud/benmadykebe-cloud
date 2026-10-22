@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="3 certifications, 2 diplômes, 4 expériences, 2 langues">
+
+<defs>
+  <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B2A40"/><stop offset="1" stop-color="#1A5276"/>
+  </linearGradient>
+  <style>
+    .n { font-family: Arial, Helvetica, sans-serif; font-size: 54px; font-weight: 700; fill: #fff; }
+    .l { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; fill: #AED6F1; }
+    .s { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #D6EAF8; }
+    .card { animation: rise .8s cubic-bezier(.2,.8,.2,1) backwards; }
+    .fl { animation: float 5s ease-in-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(26px); } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+</defs>
+<g class="card" style="animation-delay:0s" transform="translate(0 0)">
+  <g class="fl" style="animation-delay:0s">
+    <rect width="285" height="140" y="5" rx="16" fill="url(#cg)" stroke="#5DADE2" stroke-opacity=".45"/>
+    <text class="n" x="142.5" y="68" text-anchor="middle">3</text>
+    <text class="l" x="142.5" y="100" text-anchor="middle">certifications</text>
+    <text class="s" x="142.5" y="124" text-anchor="middle">Cisco Networking Academy</text>
+  </g>
+</g>
+<g class="card" style="animation-delay:0.15s" transform="translate(305 0)">
+  <g class="fl" style="animation-delay:0.6s">
+    <rect width="285" height="140" y="5" rx="16" fill="url(#cg)" stroke="#5DADE2" stroke-opacity=".45"/>
+    <text class="n" x="142.5" y="68" text-anchor="middle">2</text>
+    <text class="l" x="142.5" y="100" text-anchor="middle">diplômes</text>
+    <text class="s" x="142.5" y="124" text-anchor="middle">Bac. + MBA</text>
+  </g>
+</g>
+<g class="card" style="animation-delay:0.3s" transform="translate(610 0)">
+  <g class="fl" style="animation-delay:1.2s">
+    <rect width="285" height="140" y="5" rx="16" fill="url(#cg)" stroke="#5DADE2" stroke-opacity=".45"/>
+    <text class="n" x="142.5" y="68" text-anchor="middle">4</text>
+    <text class="l" x="142.5" y="100" text-anchor="middle">expériences</text>
+    <text class="s" x="142.5" y="124" text-anchor="middle">analyse · opérations · projets</text>
+  </g>
+</g>
+<g class="card" style="animation-delay:0.45s" transform="translate(915 0)">
+  <g class="fl" style="animation-delay:1.8s">
+    <rect width="285" height="140" y="5" rx="16" fill="url(#cg)" stroke="#5DADE2" stroke-opacity=".45"/>
+    <text class="n" x="142.5" y="68" text-anchor="middle">2</text>
+    <text class="l" x="142.5" y="100" text-anchor="middle">langues</text>
+    <text class="s" x="142.5" y="124" text-anchor="middle">français · anglais</text>
+  </g>
+</g>
+</svg>

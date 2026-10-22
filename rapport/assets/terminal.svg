@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 262" width="1200" height="262" role="img" aria-label="Animation : session en ligne de commande Cisco">
+
+<defs>
+  <style>
+    .mono { font-family: 'Courier New', Courier, monospace; font-size: 18px; }
+    .ttl { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #8B949E; }
+    .cv { transform: scaleX(0); transform-box: fill-box; transform-origin: 100% 50%; }
+    @keyframes tp0 { 0%, 4.44% { transform: scaleX(1); } 9.44%, 95% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+    .k0 { animation: tp0 18s steps(14, end) infinite; }
+    @keyframes tp1 { 0%, 19.44% { transform: scaleX(1); } 25.94%, 95% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+    .k1 { animation: tp1 18s steps(26, end) infinite; }
+    @keyframes tp2 { 0%, 34.44% { transform: scaleX(1); } 41.69%, 95% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+    .k2 { animation: tp2 18s steps(29, end) infinite; }
+    @keyframes tp3 { 0%, 49.44% { transform: scaleX(1); } 64.19%, 95% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+    .k3 { animation: tp3 18s steps(59, end) infinite; }
+    @keyframes tp4 { 0%, 64.44% { transform: scaleX(1); } 70.94%, 95% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+    .k4 { animation: tp4 18s steps(26, end) infinite; }
+    .cur { opacity: 0; animation: curv 18s infinite; }
+    .blink { animation: bl 1s steps(1) infinite; }
+    @keyframes curv { 0%, 70.94% { opacity: 0; } 71.04%, 95% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes bl { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce){*{animation:none !important}}
+  </style>
+</defs>
+<rect width="1200" height="262" rx="14" fill="#0D1117" stroke="#1A5276" stroke-width="2"/>
+<path d="M0 14 a14 14 0 0 1 14 -14 H1186 a14 14 0 0 1 14 14 V44 H0 Z" fill="#161B22"/>
+<circle cx="28" cy="22" r="6" fill="#FF5F56"/><circle cx="50" cy="22" r="6" fill="#FFBD2E"/><circle cx="72" cy="22" r="6" fill="#27C93F"/>
+<text class="ttl" x="600" y="27" text-anchor="middle">Terminal · Cisco CLI</text>
+<text class="mono" x="34" y="98" xml:space="preserve"><tspan fill="#5DADE2">Router&gt; </tspan><tspan fill="#E6EDF3">enable</tspan></text>
+<text class="mono" x="34" y="132" xml:space="preserve"><tspan fill="#5DADE2">Router# </tspan><tspan fill="#E6EDF3">configure terminal</tspan></text>
+<text class="mono" x="34" y="166" xml:space="preserve"><tspan fill="#5DADE2">Router(config)# </tspan><tspan fill="#E6EDF3">router ospf 1</tspan></text>
+<text class="mono" x="34" y="200" xml:space="preserve"><tspan fill="#5DADE2">Router(config-router)# </tspan><tspan fill="#E6EDF3">network 192.168.1.0 0.0.0.255 area 0</tspan></text>
+<text class="mono" x="34" y="234" xml:space="preserve"><tspan fill="#5DADE2">Router(config-router)# </tspan><tspan fill="#E6EDF3">end</tspan></text>
+<rect class="cv k0" x="32" y="76" width="160" height="30" fill="#0D1117"/>
+<rect class="cv k1" x="32" y="110" width="289" height="30" fill="#0D1117"/>
+<rect class="cv k2" x="32" y="144" width="322" height="30" fill="#0D1117"/>
+<rect class="cv k3" x="32" y="178" width="646" height="30" fill="#0D1117"/>
+<rect class="cv k4" x="32" y="212" width="289" height="30" fill="#0D1117"/>
+<g class="cur"><rect class="blink" x="318.8" y="216" width="10" height="22" fill="#85C1E9"/></g>
+</svg>
