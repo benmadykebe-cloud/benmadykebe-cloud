@@ -107,7 +107,7 @@
 
 <a id="projets-de-gestion"></a>
 
-<h2>Projets de gestion (MBA)</h2>
+<h2>Projets de gestion et d'analyse</h2>
 
 <p>Deux projets intégrateurs réalisés dans le cadre du MBA : à chaque fois, un diagnostic de terrain, une solution comparée à d'autres, un plan d'action et un budget. Les rapports complets sont disponibles pour les recruteurs.</p>
 
@@ -126,6 +126,28 @@
 <p>Analyse du processus de distribution des scrubs (Ishikawa, cinq pourquoi, cartographie), comparaison de trois solutions selon le coût, l'espace et la capacité, et choix d'une combinaison d'armoires et de carrousel RFID.</p>
 <p><sub>Revue de littérature, analyse des écarts, présentation orale. Rapport de 62 pages.</sub></p>
 <p><a href="https://benmadykebe-cloud.github.io/Ibrahima-Ben-Mady-Kebe/#projet-hgj"><b>Voir le projet</b></a> &nbsp;/&nbsp; <a href="rapport/Rapport_MBA_HGJ_uniformes_medicaux.pdf"><b>Rapport (PDF)</b></a></p>
+</td>
+</tr>
+</table>
+
+<h3>Projet Excel : suivi des stocks d'un service de banquet</h3>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<p>Classeur de gestion de stocks avec règles de gestion modifiables : point de commande, stock de sécurité, couverture en jours, statut automatique de chaque article (rupture, à commander, surstock), quantités à commander et analyse ABC.</p>
+<p><sub>Données fictives. 15 articles, 5 onglets, 248 formules, mise en forme conditionnelle.</sub></p>
+<p><a href="rapport/Suivi_stocks_banquet.xlsx"><b>Classeur Excel</b></a> &nbsp;/&nbsp; <a href="rapport/Suivi_stocks_banquet_explication.pdf"><b>Explication (PDF)</b></a></p>
+</td>
+<td width="50%" valign="top">
+<p><b>Tableau de bord, quatre graphiques :</b></p>
+<ul>
+<li>articles par statut</li>
+<li>valeur du stock par catégorie</li>
+<li>valeur des sorties par mois</li>
+<li>analyse ABC (coût annuel et part cumulée)</li>
+</ul>
+<p><sub>Résultat : 5 articles à commander ou en rupture, 3 en surstock, et des sorties qui doublent entre février et juin.</sub></p>
 </td>
 </tr>
 </table>
@@ -188,7 +210,7 @@
 </td>
 <td width="33%" valign="top">
 <h3>Données et bureautique</h3>
-<p>Excel avancé, Office 365, PowerPoint, saisie et validation de données, gestion d'inventaire</p>
+<p>Excel avancé (formules, mise en forme conditionnelle, tableaux de bord, graphiques), Office 365, PowerPoint, saisie et validation de données, gestion d'inventaire</p>
 </td>
 </tr>
 </table>
